@@ -42,7 +42,7 @@ def main():
 
         with col3:
             st.subheader("Podcast Guest")
-            st.write(type(podcast_info['podcast_guest']))
+            st.write(podcast_info['podcast_guest'].get('name', 'N/A'))
             
 
         with col4:
